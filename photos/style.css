@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&family=Tagesschrift&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&family=Tagesschrift&display=swap');
+
+body {
+    margin: 0;
+    background-color: #000000;
+}
+
+.main{
+    height: 2000vh;
+}
+
+/* do you remember who you are? */
+h1{
+    color:rgb(255, 243, 230);
+        font-family: "Tagesschrift", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        font-size: 28px;
+        padding: 50px 0 0 0;
+        background-color: #000000;
+        letter-spacing: 3px;
+}
+
+/*photos!*/
+
+.child_celine {
+    padding: 45px 0 0 30px;
+    height: 200px;
+    width: auto;
+}
+
+.maya {
+    padding: 30px 0 50px 100px;
+    height: 150px;
+    width: auto;
+}
+
+.portrait_celine {
+    padding: 100px 0 0 40px;
+    height: 500px;
+    width: auto;
+}
+
+.fallen {
+    padding: 350px 0 25px 85px;
+    height: 150px;
+    width: auto;
+}
+
+.family {
+    padding: 30px 0 50px 50px;
+    height: 250px;
+    width: auto;
+}
+
+.zach {
+    padding: 100px 0 50px 130px;
+    height: 230px;
+    width: auto;
+}
+
+.celine {
+    padding: 100px 0 150px 37px;
+    height: 200px;
+    width: auto;
+}
+
+.button {      
+    padding-bottom: 100px;  
+        display: block;
+        margin: 0 auto;
+        width: 20%;
+
+            font-family: "Tagesschrift", system-ui;
+            background-color: #9e9292;
+            border: 2px solid #cec8c8;
+            color:rgb(255, 243, 230);
+            padding: 14px 40px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 12px;
+            letter-spacing: 3px;
+            cursor: pointer;
+
+            transition-duration: 0.4s;
+            transition-timing-function: ease;
+            transition-delay: 0s;
+}
+
+.button:hover {
+  background-color: #5b0418;
+  border: 5px solid #973a50;
+}
+
+
+
+/* message */
+.message { 
+    opacity: 0; 
+} 
+ 
+.mystery:hover .message { 
+    opacity: 1; 
+     color:rgb(255, 243, 230);
+        font-family: "Tagesschrift", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        font-size: 16px;
+        padding: 50px 0 0 0;
+        background-color: #000000;
+        letter-spacing: 3px;
+} 
+
+
+.footer {
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+/* 2. TABLET / md — 768px and wider */ 
+@media (min-width: 768px) { 
+
+.main{
+    height: 500vh;
+    width: auto;
+}
+    
+.child_celine {
+    position: relative;
+    height: 30vh;
+    width: auto;
+}
+
+.maya {
+    position: relative;
+    left: 30%;
+    height: 25vh;
+    width: auto;
+}
+
+.portrait_celine {
+    position: relative;
+    height: 60vh;
+    left: 30%;
+    width: auto;
+}
+
+.fallen {
+    position: relative;
+    height: 30vh;
+    width: auto;
+}
+
+.family {
+    position: relative;
+    height: 15%;
+    left: 10%;
+    width: auto;
+}
+
+.zach {
+    position: relative;
+    left: 10%;
+    height: 40vh;
+    width: auto;
+}
+
+.celine {
+    position: relative;
+    height: 40vh;
+    left: 10%;
+    width: auto;
+}
+
+
+/* button - @media for tablet*/
+.button {      
+        width: 120px;
+        display: block;
+        margin: 0 auto;
+            font-family: "Tagesschrift", system-ui;
+            background-color: #9e9292;
+            border: 2px solid #cec8c8;
+            color:rgb(255, 243, 230);
+            padding: 14px 40px;
+            text-decoration: none;
+            font-size: 16px;
+            margin: 0 0 0 300px;
+            border-radius: 12px;
+            letter-spacing: 3px;
+            cursor: pointer;
+            transition-duration: 0.4s;
+            transition-timing-function: ease;
+            transition-delay: 0s;
+}
+
+.button:hover {
+  background-color: #5b0418;
+  border: 5px solid #973a50;
+}
+
+}
+
+
+
+
+
+
+
+
+/* 3. DESKTOP / xl — 1080px and wider */ 
+@media (min-width: 1080px) { 
+
+
+.child_celine {
+    position: relative;
+    height: 35vh;
+    left: 22%;
+    width: auto;
+}
+
+.maya {
+    position: relative;
+    left: 60%;
+    height: 30vh;
+    width: auto;
+}
+
+.portrait_celine {
+    position: relative;
+    height: 60vh;
+    left: 20%;
+    width: auto;
+}
+
+.fallen {
+    position: relative;
+    height: 45vh;
+    left: 50%;
+    width: auto;
+}
+
+.family {
+    position: relative;
+    height: 45vh;
+    left: 10%;
+    width: auto;
+}
+
+.zach {
+    position: relative;
+    left: 60%;
+    height: 40vh;
+    width: auto;
+}
+
+.celine {
+    position: relative;
+    height: 40vh;
+    left: 28%;
+    width: auto;
+}
+
+  
+/* button */
+        .button {
+        width: 120px;
+        display: block;
+        margin: 0 auto;
+            font-family: "Tagesschrift", system-ui;
+            background-color: #9e9292;
+            border: 2px solid #cec8c8;
+            color:rgb(255, 243, 230);
+            padding: 14px 40px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 24px;
+            border-radius: 12px;
+            letter-spacing: 3px;
+            cursor: pointer;
+
+            transition-duration: 0.4s;
+            transition-timing-function: ease;
+            transition-delay: 0s;
+    
+            }
+
+
+    .button:hover {
+  background-color: #5b0418;
+  border: 5px solid #973a50;
+
+    }
+
+}

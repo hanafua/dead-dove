@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&family=Tagesschrift&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #dfdfdf;
+}
+
+
+.main {
+    margin: 0;
+    height: 100vh;
+
+}
+
+.rowOne {
+    color:black
+        font-family: "Tagesschrift", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 24px;
+        padding: 200px 0 10px 30px;
+
+}
+
+.rowTwo {
+    color:black
+        font-family: "Tagesschrift", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 18px;
+        padding: 20px 0 10px 30px;
+
+}
+
+
+.button {
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    
+    font-family: "Tagesschrift", system-ui;
+    background-color: #9e9292;
+    border: 2px solid #cec8c8;
+    color:rgb(255, 243, 230);
+    padding: 14px 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 12px;
+    letter-spacing: 3px;
+    cursor: pointer;
+
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+}
+
+.button:hover {
+  background-color: #5b0418;
+  border: 5px solid #973a50;
+
+}
+
+
+.message { 
+    opacity: 0; 
+    padding: 0 0 50px 30px;
+} 
+ 
+/*secret message*/
+.mystery:hover .message { 
+    font-family: "Special Elite", system-ui;
+    opacity: 1; 
+    color:#5b0418;
+    font-size: 32px;
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 3px;
+} 
+
+/*secret hover*/
+.object {
+    color: #dfdfdf;
+    padding: 50px 30px 50px 0;
+    font-size: 16px;
+}
+
+@media (min-width: 768px) {
+
+    .button {      
+        width: 200px;
+        display: block;
+        margin: 0 auto;
+            align-items: center;
+            font-family: "Tagesschrift", system-ui;
+            background-color: #9e9292;
+            border: 2px solid #cec8c8;
+            color:rgb(255, 243, 230);
+            padding: 14px 40px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 24px;
+            border-radius: 12px;
+            letter-spacing: 6px;
+            cursor: pointer;
+
+            transition-duration: 0.4s;
+            transition-timing-function: ease;
+            transition-delay: 0s;
+    
+}
+
+}

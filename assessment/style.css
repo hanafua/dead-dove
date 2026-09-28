@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&family=Tagesschrift&display=swap');
+
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: black;
+
+}
+
+h1{
+    text-align: center;
+    color:rgb(255, 243, 230);
+        font-family: "Tagesschrift", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        font-size: 30px;
+        padding: 100px 0 0 0;
+        letter-spacing: 12px;
+}
+
+h2 {
+ text-align: center;
+    color:rgb(255, 243, 230);
+        font-family: "Tagesschrift", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        font-size: 18px;
+        padding: 100px 0 0 0;
+        letter-spacing: 3px;
+}
+
+
+/* button */    
+        .button {        
+            font-family: "Tagesschrift", system-ui;
+            background-color: #9e9292;
+            border: 2px solid #cec8c8;
+            color:rgb(255, 243, 230);
+            padding: 14px 40px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            display: flex;
+            justify-content: center;
+            border-radius: 12px;
+            letter-spacing: 6px;
+            margin: 100px 100px;
+            cursor: pointer;
+
+            transition-duration: 0.4s;
+            transition-timing-function: ease;
+            transition-delay: 0s;
+        }
+
+
+
+
+.button:hover {
+  background-color: #5b0418;
+  border: 5px solid #973a50;
+
+}
+
+
+
+/* 2. TABLET / md — 768px and wider */ 
+@media (min-width: 768px) { 
+
+h1{
+    text-align: center;
+    color:rgb(255, 243, 230);
+        font-family: "Tagesschrift", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        font-size: 52px;
+        padding: 100px 0 0 0;
+        letter-spacing: 12px;
+}
+
+h2 {
+ text-align: center;
+    color:rgb(255, 243, 230);
+        font-family: "Tagesschrift", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        font-size: 36px;
+        padding: 100px 0 0 0;
+        letter-spacing: 3px;
+}
+
+/* return button */
+h3{
+    margin: 0;
+    background-color: #000000
+    height:30vh;
+    padding:50px 0 0 0;
+
+}
+
+/* button */    
+        .button {      
+        width: 200px;
+        display: block;
+        margin: 0 auto;
+            align-items: center;
+            font-family: "Tagesschrift", system-ui;
+            background-color: #9e9292;
+            border: 2px solid #cec8c8;
+            color:rgb(255, 243, 230);
+            padding: 14px 40px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 24px;
+            border-radius: 12px;
+            letter-spacing: 6px;
+            cursor: pointer;
+
+            transition-duration: 0.4s;
+            transition-timing-function: ease;
+            transition-delay: 0s;
+        }
+
+
+
+.button:hover {
+  background-color: #5b0418;
+  border: 5px solid #973a50;
+
+}
+
+
+
+}

@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&family=Tagesschrift&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+.body {
+margin: 0;
+}
+
+.main {
+    height: 100vh;
+
+}
+
+
+.rowOne {
+text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+        font-variation-settings:
+            "width" 100;
+
+        padding: 300px 0 200px 0;
+
+}
+
+
+.rowTwo {
+text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+        font-variation-settings:
+            "width" 100;
+
+        padding: 0 0 100px 0;
+
+}
+
+/* button */
+        .button {        
+            align-items: center;
+
+            font-family: "Tagesschrift", system-ui;
+            background-color: #9e9292;
+            border: 2px solid #cec8c8;
+            color:rgb(255, 243, 230);
+            padding: 14px 40px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 12px;
+            margin: 4px 100px;
+            letter-spacing: 3px;
+            cursor: pointer;
+
+            transition-duration: 0.4s;
+            transition-timing-function: ease;
+            transition-delay: 0s;
+    
+            }
+
+
+.button:hover {
+  background-color: #5b0418;
+  border: 5px solid #973a50;
+
+}
+
+.container {
+    justify-content: center; 
+    align-items: center 
+}
+
+/*secret message*/
+.ghost { 
+    color:#5b0418;
+    padding-top: 30px;
+        opacity: 0; 
+        font-family: "Special Elite", system-ui;
+        font-weight: 400;
+        font-style: normal;
+
+} 
+
+.door{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings: "width" 100;
+}
+
+.door:hover + .ghost { 
+    opacity: 1; 
+    font-size: 32px;
+    text-align: center;
+
+} 
+
+
+
+
+/* 2. TABLET / md — 768px and wider */ 
+@media (min-width: 768px) {
+
+.rowOne {
+text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+        font-variation-settings: "width" 100;
+        padding: 200px 0 200px 0;
+        font-size: 18px;
+
+}
+
+
+.rowTwo {
+text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+        font-variation-settings:
+            "width" 100;
+
+        padding: 0 0 100px 0;
+        font-size: 18px;
+
+
+}
+
+/* button */
+        .button {
+        width: 200px;
+        display: block;
+        margin: 0 auto;
+            font-family: "Tagesschrift", system-ui;
+            background-color: #9e9292;
+            border: 2px solid #cec8c8;
+            color:rgb(255, 243, 230);
+            padding: 14px 40px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 24px;
+            border-radius: 12px;
+            letter-spacing: 3px;
+            cursor: pointer;
+
+            transition-duration: 0.4s;
+            transition-timing-function: ease;
+            transition-delay: 0s;
+    
+            }
+
+
+.button:hover {
+  background-color: #5b0418;
+  border: 5px solid #973a50;
+
+}
+
+
+}

@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&family=Tagesschrift&display=swap');
+
+body{
+    margin: 0;
+
+}
+
+.main{
+    background-color: #000000;
+    height: 100vh;
+    width: auto;
+
+}
+
+
+/* you have declined ascension. purging soul. */
+h1{
+
+    margin: 0;
+    color:rgb(255, 243, 230);
+        background-color: #000000;
+        height: 20vh;
+        font-family: "Tagesschrift", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        font-size: 28px;
+        padding: 300px 0 10px 0;
+        letter-spacing: 5px;
+}
+
+
+/* return button */
+h2{
+    margin: 0;
+    background-color: #000000
+  
+/* button */
+    background-color: #000000;
+    text-align: center;
+    
+    
+        .button {        
+            font-family: "Tagesschrift", system-ui;
+            background-color: #9e9292;
+            border: 2px solid #cec8c8;
+            color:rgb(255, 243, 230);
+            padding: 14px 40px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 12px;
+            margin: 4px 0 2px 0;
+            letter-spacing: 6px;
+            cursor: pointer;
+
+            transition-duration: 0.4s;
+            transition-timing-function: ease;
+            transition-delay: 0s;
+        }
+}
+
+
+
+.button:hover {
+  background-color: #5b0418;
+  border: 5px solid #973a50;
+
+}

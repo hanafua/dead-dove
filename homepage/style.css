@@ -1,0 +1,552 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&family=Tagesschrift&display=swap');
+
+body{
+    margin: 0;
+    background-color: #000000;
+    background-image: url('../case.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center center;       
+        background-attachment: fixed; 
+
+
+}
+
+.main{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* entering database... */
+h1{
+margin: 0;
+
+    color:rgb(255, 243, 230);
+        font-family: "Tagesschrift", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        font-size: 32px;
+        padding: 50px 0 0 0;
+        background-color: #000000;
+        letter-spacing: 12px;
+}
+
+h2{
+margin: 0;
+
+    color:rgb(255, 243, 230);
+        font-family: "Tagesschrift", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        font-size: 18px;
+        padding: 30px 0 10px 0;
+        background-color: #000000;
+        letter-spacing: 5px;
+}
+
+.rowTwo{
+    padding: 30px 0 0 0;
+    background-color: #000000;
+    height: 80vh;
+    width: auto;
+    margin: 0;
+    text-align: center;
+
+
+}
+
+.church:hover {
+  transform: scale(2) rotate(0);
+}
+
+.church {
+    position: absolute;
+    width: 120px;
+    height: auto;
+    top: 250px;
+    left: 70px;
+    transform: rotate(-25deg); 
+
+
+        transition-duration: 0.2s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+
+}
+
+
+.casette:hover {
+    transform: scale(2); rotate: calc(0);
+
+}
+
+.casette {
+    position: absolute;
+    width: 100px;
+    height: auto;
+    top: 350px;
+    left: 270px;
+
+    transform: rotate(15deg); 
+        transition-duration: 0.2s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+
+
+
+}
+
+.casefiles {
+    position: absolute;
+    width: 100px;
+    height: auto;
+    top: 200px;
+    right: 75px;
+    transform: rotate(-90deg); 
+
+
+        transition-duration: 0.4s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+
+}
+
+.casefiles:hover {
+    transform: scale(2); rotate: calc(0);
+}
+
+
+.idcard {
+    position: fixed;
+    height: 50px;
+    width: auto;
+    bottom: 25%;
+    left: 10%;
+    transform: rotate(-15deg);
+
+        transition: 0.3s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+
+}
+
+
+.idcard:hover {
+    transform: scale(2.4) rotate(0) translateX(20px);
+}
+
+
+.drink {
+    position: fixed;
+    height: 100px;
+    width: auto;
+    bottom: 30%;
+    right: 10%;
+    transform: rotate(-105deg);
+
+        transition: 0.3s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+
+}
+
+.drink:hover {
+    transform: scale(1.5) rotate(15deg)
+}
+
+
+
+.polaroids:hover {
+  transform: scale(2) rotate(0);
+}
+
+.polaroids {
+    position: absolute;
+    width: 100px;
+    height: auto;
+    bottom: 320px;
+    left: 140px;
+    transform: rotate(25deg); 
+
+        transition-duration: 0.2s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+
+}
+
+
+/* button to continue*/
+.button {        
+            font-family: "Tagesschrift", system-ui;
+            background-color: #9e9292;
+            border: 2px solid #cec8c8;
+            color:rgb(255, 243, 230);
+            padding: 14px 40px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 12px;
+            margin: 4px 2px;
+            letter-spacing: 3px;
+            cursor: pointer;
+
+            transition-duration: 0.4s;
+            transition-timing-function: ease;
+            transition-delay: 0s;
+}
+
+.button:hover {
+  background-color: #5b0418;
+  border: 5px solid #973a50;
+}
+
+
+
+.footer {
+    position: fixed;
+    right: 0;
+    bottom: 10%;
+    display: flex;
+    padding-right: 10px;
+
+}
+
+h3{
+    position: fixed;
+    left: 10px;
+    bottom: 10%;
+    display: flex;
+    padding-left: 10px;
+    color:rgb(255, 243, 230);
+        font-family: "Tagesschrift", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        font-size: 10px;
+        letter-spacing: 1px;
+}
+
+
+
+
+/* 2. TABLET / md — 768px and wider */ 
+@media (min-width: 768px) { 
+    
+    body{
+    margin: 0;
+    background-color: #000000;
+    background-image: url('../case.png');
+        background-repeat: no-repeat;
+        background-size: 70% ;
+        background-position: center center;       
+        background-attachment: fixed; 
+}
+    
+
+.church:hover {
+  transform: scale(2) rotate(0);
+}
+
+.church {
+    position: flex;
+    height: 18vh;
+    width: auto;
+    top: 30%;
+    left: 10%;
+    transform: rotate(-25deg); 
+
+
+        transition-duration: 0.2s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+
+}
+
+
+.casette:hover {
+    transform: scale(2); rotate: calc(0);
+
+}
+
+.casette {
+    position: flex;
+    height: 7vh;
+    width: auto;
+    top: 30%;
+    left: 40%;
+
+    transform: rotate(15deg); 
+        transition-duration: 0.2s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+
+
+
+}
+
+.casefiles {
+    position: flex;
+    height: 15vh;
+    width: auto;
+    top: 35%;
+    right: 20%;
+    transform: rotate(-90deg); 
+
+
+        transition-duration: 0.4s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+
+}
+
+.casefiles:hover {
+    transform: scale(2); rotate: calc(0);
+}
+
+
+.idcard {
+    position: flex;
+    height: 7vh;
+    width: auto;
+    top: 60%;
+    left: 10%;
+    transform: rotate(-15deg);
+
+        transition: 0.3s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+
+}
+
+
+.idcard:hover {
+    transform: scale(2) rotate(0) translateX(20px);
+}
+
+
+.drink {
+    position: flex;
+    height: 12vh;
+    width: auto;
+    bottom: 30%;
+    right: 15%;
+    transform: rotate(-105deg);
+
+        transition: 0.3s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+
+}
+
+.drink:hover {
+    transform: scale(1.5) rotate(15deg)
+}
+
+
+
+.polaroids:hover {
+  transform: scale(2) rotate(0);
+}
+
+.polaroids {
+    position: flex;
+    height: 10vh;
+    width: auto;
+    bottom: 30%;
+    left: 40%;
+    transform: rotate(25deg); 
+
+        transition-duration: 0.2s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+
+}
+
+h3{
+    position: fixed;
+    left: 10px;
+    bottom: 10%;
+    display: flex;
+    padding-left: 20px;
+    color:rgb(255, 243, 230);
+        font-family: "Tagesschrift", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 24px;
+        letter-spacing: 1px;
+}
+
+/* button to continue*/
+.button {        
+            font-family: "Tagesschrift", system-ui;
+            background-color: #9e9292;
+            border: 2px solid #cec8c8;
+            color:rgb(255, 243, 230);
+            padding: 14px 40px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 24px;
+            border-radius: 12px;
+            margin: 0 10px;
+            letter-spacing: 3px;
+            cursor: pointer;
+
+            transition-duration: 0.4s;
+            transition-timing-function: ease;
+            transition-delay: 0s;
+}
+
+.button:hover {
+  background-color: #5b0418;
+  border: 5px solid #973a50;
+}
+
+
+}
+
+
+
+
+
+
+/* 3. DESKTOP / xl — 1080px and wider */ 
+@media (min-width: 1080px) {
+
+    body{
+    margin: 0;
+    background-color: #000000;
+    background-image: url('../case.png');
+        background-repeat: no-repeat;
+        background-size: 35%;
+        background-position: center center;       
+        background-attachment: fixed; 
+
+}
+
+
+.church:hover {
+  transform: scale(1.7) rotate(0);
+}
+
+.church {
+    position: flex;
+    height: 20vh;
+    width: auto;
+    top: 30%;
+    left: 25%;
+    transform: rotate(-25deg); 
+
+
+        transition-duration: 0.2s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+
+}
+
+
+.casette:hover {
+    transform: scale(2); rotate: calc(0);
+
+}
+
+.casette {
+    position: flex;
+    height: 7vh;
+    width: auto;
+    top: 35%;
+    left: 45%;
+
+    transform: rotate(15deg); 
+        transition-duration: 0.2s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+
+
+
+}
+
+.casefiles {
+    position: flex;
+    height: 20vh;
+    width: auto;
+    top: 30%;
+    right: 30%;
+    transform: rotate(-90deg); 
+
+
+        transition-duration: 0.4s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+
+}
+
+.casefiles:hover {
+    transform: scale(1.7); rotate: calc(0);
+}
+
+
+.idcard {
+    position: flex;
+    height: 7vh;
+    width: auto;
+    top: 65%;
+    left: 25%;
+    transform: rotate(-15deg);
+
+        transition: 0.3s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+
+}
+
+
+.idcard:hover {
+    transform: scale(2.5) rotate(0);
+}
+
+
+.drink {
+    position: flex;
+    height: 15vh;
+    width: auto;
+    bottom: 20%;
+    right: 35%;
+    transform: rotate(-105deg);
+
+        transition: 0.3s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+
+}
+
+.drink:hover {
+    transform: scale(2) rotate(15deg)
+}
+
+
+
+.polaroids:hover {
+  transform: scale(2) rotate(0);
+}
+
+.polaroids {
+    position: flex;
+    height: 13vh;
+    width: auto;
+    bottom: 30%;
+    left: 40%;
+    transform: rotate(25deg); 
+
+        transition-duration: 0.2s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+
+}
+
+
+
+}
